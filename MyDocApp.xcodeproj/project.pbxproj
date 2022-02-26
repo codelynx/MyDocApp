@@ -14,6 +14,7 @@
 		CC08DAA627C9E58500BF72FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC08DAA427C9E58500BF72FF /* Main.storyboard */; };
 		CC08DAA827C9E58700BF72FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC08DAA727C9E58700BF72FF /* Assets.xcassets */; };
 		CC08DAAB27C9E58700BF72FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC08DAA927C9E58700BF72FF /* LaunchScreen.storyboard */; };
+		CC08DAB327C9EA3700BF72FF /* Untitled.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC08DAB227C9EA3700BF72FF /* Untitled.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CC08DAA727C9E58700BF72FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC08DAAA27C9E58700BF72FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC08DAAC27C9E58700BF72FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC08DAB227C9EA3700BF72FF /* Untitled.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Untitled.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		CC08DA9B27C9E58500BF72FF /* MyDocApp */ = {
 			isa = PBXGroup;
 			children = (
+				CC08DAB227C9EA3700BF72FF /* Untitled.txt */,
 				CC08DA9C27C9E58500BF72FF /* AppDelegate.swift */,
 				CC08DA9E27C9E58500BF72FF /* DocumentBrowserViewController.swift */,
 				CC08DAA027C9E58500BF72FF /* DocumentViewController.swift */,
@@ -131,6 +134,7 @@
 				CC08DAAB27C9E58700BF72FF /* LaunchScreen.storyboard in Resources */,
 				CC08DAA827C9E58700BF72FF /* Assets.xcassets in Resources */,
 				CC08DAA627C9E58500BF72FF /* Main.storyboard in Resources */,
+				CC08DAB327C9EA3700BF72FF /* Untitled.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
