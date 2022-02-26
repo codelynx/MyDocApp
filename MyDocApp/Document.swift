@@ -9,7 +9,13 @@ import UIKit
 
 class Document: UIDocument {
 	
-	var text: String?
+	var text: String? {
+		didSet {
+			DispatchQueue.main.async {
+				self.updateChangeCount(.done)
+			}
+		}
+	}
 	
 	override func contents(forType typeName: String) throws -> Any {
 		print(Self.self, #function, "typeName=", typeName)

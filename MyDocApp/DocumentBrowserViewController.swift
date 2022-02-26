@@ -10,11 +10,6 @@ import UIKit
 
 class DocumentBrowserViewController: UIDocumentBrowserViewController, UIDocumentBrowserViewControllerDelegate {
 	
-//	override var allowedContentTypes: [String] {
-//		return ["com.electricwoods.text"]
-////		return ["public.text"]
-//	}
-	
 	static let untitledKey = "Untitled"
 	static let pathExtension = "txt"
 	

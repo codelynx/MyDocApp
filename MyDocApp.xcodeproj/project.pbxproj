@@ -15,6 +15,7 @@
 		CC08DAA827C9E58700BF72FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC08DAA727C9E58700BF72FF /* Assets.xcassets */; };
 		CC08DAAB27C9E58700BF72FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC08DAA927C9E58700BF72FF /* LaunchScreen.storyboard */; };
 		CC08DAB327C9EA3700BF72FF /* Untitled.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC08DAB227C9EA3700BF72FF /* Untitled.txt */; };
+		CCCDD58127CA36AF006DF6E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCDD58027CA36AF006DF6E3 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CC08DAAA27C9E58700BF72FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC08DAAC27C9E58700BF72FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC08DAB227C9EA3700BF72FF /* Untitled.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Untitled.txt; sourceTree = "<group>"; };
+		CCCDD58027CA36AF006DF6E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				CC08DAB227C9EA3700BF72FF /* Untitled.txt */,
 				CC08DA9C27C9E58500BF72FF /* AppDelegate.swift */,
+				CCCDD58027CA36AF006DF6E3 /* SceneDelegate.swift */,
 				CC08DA9E27C9E58500BF72FF /* DocumentBrowserViewController.swift */,
 				CC08DAA027C9E58500BF72FF /* DocumentViewController.swift */,
 				CC08DAA227C9E58500BF72FF /* Document.swift */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCDD58127CA36AF006DF6E3 /* SceneDelegate.swift in Sources */,
 				CC08DAA327C9E58500BF72FF /* Document.swift in Sources */,
 				CC08DAA127C9E58500BF72FF /* DocumentViewController.swift in Sources */,
 				CC08DA9F27C9E58500BF72FF /* DocumentBrowserViewController.swift in Sources */,
@@ -302,7 +306,6 @@
 				INFOPLIST_FILE = MyDocApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
@@ -331,7 +334,6 @@
 				INFOPLIST_FILE = MyDocApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
